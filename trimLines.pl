@@ -4,9 +4,9 @@
 #
 # perl trimLines.pl -in <input file> -out <output file>
 #
-# Reads each line in the input file, splitting any line found that exceeds
-# a specified limit.  The current limit is set to 5000.  Any line with characters
-# more than 5000 are split.  All lines, whether split or not, are written out to
+# Reads each line in the input file, splitting lines found that exceeds a
+# specified limit.  The current limit is set to 5000.  Any line with characters
+# more than 5000 is split.  All lines, whether split or not, are written out to
 # a specified output file.   For example, if a line contains 10234 characters,
 # that line would be split three times.  Example output (to STDOUT):
 #
