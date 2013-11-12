@@ -36,7 +36,7 @@ elsif ( !$inFile ) {
 elsif( !$outFile ) {
     print "Please specify an output file using option -out.  Thank you.\n";
 
-# Process input file...
+# Process input file.
 } else {
 
     # Define Variables
@@ -62,7 +62,7 @@ elsif( !$outFile ) {
             # Print Output
             print "Line \"$lnNum\" is too long at \"$lnLgth\" characters. Splitting Line...\t";
             
-            # Populate temp array with line "splits"...
+            # Populate temp array with line "splits".
             push @lineSplits, $1 while ($line =~ /(.{1,$lnMaxChrLgth})/msxog);
             
             # Write out line splits to output file
