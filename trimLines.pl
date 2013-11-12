@@ -1,4 +1,4 @@
-############################
+################################
 # Name: trimLines.pl
 # Author: Jeremiah Burley
 #
@@ -12,7 +12,7 @@
 #
 #  Line "1147491" is too long at "10234" characters. Splitting Line... 5000, 5000, 234,
 #
-############################
+################################
 use strict;
 use Getopt::Long;
 
